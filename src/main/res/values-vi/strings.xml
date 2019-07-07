@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">as2</string>
+    <string name="best_score">Kỉ Lục: %1$s</string>
+    <string name="play">Chơi</string>
+    <string name="Setting">Cài đặt</string>
+    <string name="score">Điểm: %1$s</string>
+    <string name="best">Kỉ lục: %1$s</string>
+    <string name="game_over">Kết Thúc</string>
+    <string name="your_score">Điểm:%1$s</string>
+    <string name="try_again">Thử Lại</string>
+    <string name="home">Trang chủ</string>
+    <string name="Instructor">Xếp hạng</string>
+    <string name="music_setting">Nhạc nền</string>
+    <string name="title_activity_playgame">Playgame</string>
+    <string name="player_score">Điểm: %1$s</string>
+    <string name="title_activity_information">INFORMATION</string>
+    <string name="Text_change">Thay Đổi ngôn Ngữ</string>
+    <string name="score_play">Điểm:</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="Japan">Tiếng Nhật</string>
+    <string name="enter_your_name">Nhập tên của bạn</string>
+    <string name="enter">Nhập</string>
+</resources>

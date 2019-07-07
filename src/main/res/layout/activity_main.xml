@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/snowman2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <com.jetradarmobile.snowfall.SnowfallView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:snowflakeAlphaMax="255"
+            app:snowflakeAlphaMin="150"
+            app:snowflakeAngleMax="5"
+            app:snowflakeImage="@drawable/ball"
+            app:snowflakeSizeMax="32dp"
+            app:snowflakeSizeMin="8dp"
+            app:snowflakeSpeedMax="4"
+            app:snowflakeSpeedMin="4"
+            app:snowflakesAlreadyFalling="false"
+            app:snowflakesFadingEnabled="true"
+            app:snowflakesNum="240" />
+        <ImageView
+            android:id="@+id/ivGameName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+
+            android:src="@drawable/mx"
+            />
+
+        <TextView
+            android:id="@+id/tv_best_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:text="@string/best_score"
+            android:textColor="@color/text"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_play"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_heigh"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_red"
+            android:layout_gravity="center"
+            android:text="@string/play"
+            android:textColor="@color/text"
+            android:textSize="40sp"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:id="@+id/bt_setting"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_heigh"
+            android:background="@drawable/btn_green"
+            android:text="@string/Setting"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            />
+        <Button
+            android:id="@+id/information"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_heigh"
+            android:background="@drawable/btn_yellow"
+            android:text="@string/Instructor"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            />
+    </FrameLayout>
+
+
+</LinearLayout>

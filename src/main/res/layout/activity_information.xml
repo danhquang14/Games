@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/snowman2"
+    android:orientation="vertical"
+    tools:context=".Information">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:snowflakeAlphaMax="255"
+        app:snowflakeAlphaMin="150"
+        app:snowflakeAngleMax="5"
+        app:snowflakeImage="@drawable/ball"
+        app:snowflakeSizeMax="32dp"
+        app:snowflakeSizeMin="8dp"
+        app:snowflakeSpeedMax="4"
+        app:snowflakeSpeedMin="4"
+        app:snowflakesAlreadyFalling="false"
+        app:snowflakesFadingEnabled="true"
+        app:snowflakesNum="240" />
+        <GridLayout
+            android:id="@+id/leaderboard_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3">
+
+        </GridLayout>
+    </FrameLayout>
+</LinearLayout>

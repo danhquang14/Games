@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">as2</string>
+    <string name="best_score" formated="false">Best Score: %1$s</string>
+    <string name="play">Play</string>
+    <string name="Setting">Setting</string>
+    <string name="score" formated="false">Score: %1$s</string>
+    <string name="best" formated="false">Best: %1$s</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="your_score" formated="false">YOUR SCORE\n%1$s</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="home">HOME</string>
+    <string name="Instructor">Rank</string>
+    <string name="title_activity_playgame">Playgame</string>
+    <string name="player_score" formatted="false">Player_Score\n%1$s</string>
+    <string name="title_activity_information">INFORMATION</string>
+    <string name="music_setting"> Music setting: </string>
+    <string name="Text_change"> Language setting: </string>
+    <string name="score_play">Score:</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="english">English</string>
+    <string name="Japan">Japanese</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter">Enter</string>
+</resources>

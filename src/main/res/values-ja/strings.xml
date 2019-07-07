@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">as2</string>
+    <string name="game_over">ゲームオーバー</string>
+    <string name="play">"遊びます "</string>
+    <string name="score">スコア : %1$s</string>
+    <string name="player_score">スコア : %1$s</string>
+    <string name="title_activity_playgame">Playgame</string>
+    <string name="music_setting">音楽</string>
+    <string name="best">最高のスコア</string>
+    <string name="best_score">最高のスコア</string>
+    <string name="score_play">スコア:</string>
+    <string name="vietnamese">ベトナム語</string>
+    <string name="english">英語</string>
+    <string name="Japan">日本語</string>
+    <string name="Text_change">言語を翻訳する</string>
+    <string name="title_activity_information">INFORMATION</string>
+    <string name="Instructor">リーダーボード</string>
+    <string name="home">自宅</string>
+    <string name="try_again">"再試行する "</string>
+    <string name="your_score">スコア: %1$s</string>
+    <string name="Setting">設定</string>
+    <string name="enter_your_name">名前を入力</string>
+    <string name="enter">入る</string>
+</resources>
